@@ -34,6 +34,7 @@ public class MapController {
     @Autowired
     private MapMapper mapMapper;
 
+
     @Value("${global.color}")
     private String color;
 
